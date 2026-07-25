@@ -15,6 +15,8 @@ class Banco:
             self.__saldo -= cantidad
         else:
             print("Saldo insuficiente.")
+    def nuevo():
+        pass
 
 banco1 = Banco("Banco de España", 1000000)
 banco1.depositar(500000)  # Aumenta el saldo en 500000
